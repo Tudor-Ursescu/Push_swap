@@ -6,11 +6,11 @@
 /*   By: tursescu <tursescu@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/08/19 11:56:04 by tursescu          #+#    #+#             */
-/*   Updated: 2024/08/19 14:11:14 by tursescu         ###   ########.fr       */
+/*   Updated: 2025/03/20 14:36:27 by tursescu         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "push_swap.h"
+#include "../includes/push_swap.h"
 
 long long	push_swap_atoi(const char *str)
 {

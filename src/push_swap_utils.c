@@ -6,11 +6,11 @@
 /*   By: tursescu <tursescu@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/08/07 11:55:48 by tursescu          #+#    #+#             */
-/*   Updated: 2024/08/26 14:09:43 by tursescu         ###   ########.fr       */
+/*   Updated: 2025/03/20 14:36:29 by tursescu         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "push_swap.h"
+#include "../includes/push_swap.h"
 
 void	free_stack(t_list **stack)
 {

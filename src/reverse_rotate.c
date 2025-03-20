@@ -6,11 +6,11 @@
 /*   By: tursescu <tursescu@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/08/12 08:59:12 by tursescu          #+#    #+#             */
-/*   Updated: 2024/08/14 17:41:26 by tursescu         ###   ########.fr       */
+/*   Updated: 2025/03/20 14:36:34 by tursescu         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "push_swap.h"
+#include "../includes/push_swap.h"
 
 static void	reverse_rotate(t_list **stack)
 {

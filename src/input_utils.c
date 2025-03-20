@@ -1,37 +1,33 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   push.c                                             :+:      :+:    :+:   */
+/*   input_utils.c                                      :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: tursescu <tursescu@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/08/09 14:55:42 by tursescu          #+#    #+#             */
-/*   Updated: 2024/08/14 17:40:30 by tursescu         ###   ########.fr       */
+/*   Created: 2024/08/20 12:33:01 by tursescu          #+#    #+#             */
+/*   Updated: 2025/03/20 14:35:04 by tursescu         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "push_swap.h"
+#include "../includes/push_swap.h"
 
-static void	push(t_list **src, t_list **dest)
+int	is_sign(char c)
 {
-	t_list	*temp;
-
-	if (*src == NULL)
-		return ;
-	temp = (*src)->next;
-	(*src)->next = *dest;
-	*dest = *src;
-	*src = temp;
+	return ((c == '+') || (c == '-'));
 }
 
-void	pa(t_list **stack_a, t_list **stack_b)
+int	is_digit(char c)
 {
-	push(stack_b, stack_a);
-	ft_printf("pa\n");
+	return (c >= '0' && c <= '9');
 }
 
-void	pb(t_list **stack_a, t_list **stack_b)
+int	ft_compare(const char *s1, const char *s2)
 {
-	push(stack_a, stack_b);
-	ft_printf("pb\n");
+	int	x;
+	int	y;
+
+	x = ft_atoi(s1);
+	y = ft_atoi(s2);
+	return (x - y);
 }

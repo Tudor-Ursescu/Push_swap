@@ -6,11 +6,11 @@
 /*   By: tursescu <tursescu@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/07/30 11:04:03 by tursescu          #+#    #+#             */
-/*   Updated: 2024/08/22 12:52:31 by tursescu         ###   ########.fr       */
+/*   Updated: 2025/03/20 14:36:21 by tursescu         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "push_swap.h"
+#include "../includes/push_swap.h"
 
 static void	push_swap(t_list **stack_a, t_list **stack_b, int stack_size)
 {

@@ -6,7 +6,7 @@
 #    By: tursescu <tursescu@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2024/07/30 10:58:04 by tursescu          #+#    #+#              #
-#    Updated: 2024/08/28 11:11:33 by tursescu         ###   ########.fr        #
+#    Updated: 2025/03/20 14:38:13 by tursescu         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -16,11 +16,11 @@ CFLAGS = -g -Wall -Wextra -Werror -I$(LIBFT_DIR)
 LIBFT_DIR = ./Libft
 LIBS = -L$(LIBFT_DIR) -lft
 # Source files for pipex
-PUSHSWAP_SRCS =	main.c push_swap_utils.c \
-				swap.c rotate.c reverse_rotate.c \
-				push.c mini_sort.c set_stack.c \
-				stack_utils.c sort.c check_input.c \
-				push_swap_atoi.c input_utils.c
+PUSHSWAP_SRCS =	src/main.c src/push_swap_utils.c \
+				src/swap.c src/rotate.c src/reverse_rotate.c \
+				src/push.c src/mini_sort.c src/set_stack.c \
+				src/stack_utils.c src/sort.c src/check_input.c \
+				src/push_swap_atoi.c src/input_utils.c
 PUSHSWAP_OBJS = $(PUSHSWAP_SRCS:.c=.o)
 # 'all' target
 all: $(NAME)

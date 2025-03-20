@@ -6,11 +6,11 @@
 /*   By: tursescu <tursescu@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/08/15 12:23:39 by tursescu          #+#    #+#             */
-/*   Updated: 2024/08/22 12:53:52 by tursescu         ###   ########.fr       */
+/*   Updated: 2025/03/20 14:36:16 by tursescu         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "push_swap.h"
+#include "../includes/push_swap.h"
 
 int	arg_is_number(char *av)
 {

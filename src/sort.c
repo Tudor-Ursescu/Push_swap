@@ -6,11 +6,11 @@
 /*   By: tursescu <tursescu@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/08/13 09:31:13 by tursescu          #+#    #+#             */
-/*   Updated: 2024/09/23 13:21:10 by tursescu         ###   ########.fr       */
+/*   Updated: 2025/03/20 14:36:42 by tursescu         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "push_swap.h"
+#include "../includes/push_swap.h"
 
 static int	max_bits(t_list **stack)
 {

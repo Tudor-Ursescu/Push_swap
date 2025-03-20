@@ -6,7 +6,7 @@
 /*   By: tursescu <tursescu@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/07/30 10:55:08 by tursescu          #+#    #+#             */
-/*   Updated: 2024/09/16 12:06:24 by tursescu         ###   ########.fr       */
+/*   Updated: 2025/03/20 14:35:27 by tursescu         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,7 +17,7 @@
 # include <stdlib.h>
 # include <limits.h>
 # include <stdbool.h>
-# include "Libft/libft.h"
+# include "../Libft/libft.h"
 
 typedef struct s_list
 {
