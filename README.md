@@ -31,7 +31,7 @@ push_swap/
 ```
 
 ## 🚀 Installation
-To compile and use Libft in your own projects:
+To compile and use Push_swap in your own projects:
 ```sh
 git clone https://github.com/Tudor-Ursescu/Push_swap.git
 cd Push_swap
