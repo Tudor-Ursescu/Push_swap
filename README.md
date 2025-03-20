@@ -21,6 +21,14 @@
 - rrb: Reverse rotate stack b (move the bottom element to the top).
 - rrr: Perform rra and rrb simultaneously.
 
+## 🚫 Edge Cases 
+- Non-numeric input: Any non-integer values will result in an error.
+- Duplicate values: Duplicate integers in the input will cause an error.
+- Values out of integer range: Inputs exceeding the minimum or maximum integer limits,
+  such as 2147483649 or 2147483648.
+- Leading/trailing spaces: Input with extra spaces (e.g., " 1 2 3 ") should still be handled   correctly.
+- Negative numbers: Input containing negative integers (e.g., "-5 3 2") should be processed as valid
+
 ## 📂 Directory Structure
 ```
 push_swap/
@@ -37,23 +45,15 @@ git clone https://github.com/Tudor-Ursescu/Push_swap.git
 cd Push_swap
 make
 ```
-This will produce the executable push_swap.
+This will produce the executable `push_swap`.
 
 ## 🛠️ Usage
-This will produce the executable `push_swap`.
 After compiling, you can use the program by running:
 ```sh
 ./push_swap [numbers]
 ```
 The input can be provided as a single argument with space-separated integers (e.g., "3 2 1") or as multiple individual arguments, each separated by one or more spaces.
 
-## 🚫 Edge Cases 
-- Non-numeric input: Any non-integer values will result in an error.
-- Duplicate values: Duplicate integers in the input will cause an error.
-- Values out of integer range: Inputs exceeding the minimum or maximum integer limits,
-  such as 2147483649 or 2147483648.
-- Leading/trailing spaces: Input with extra spaces (e.g., " 1 2 3 ") should still be handled   correctly.
-- Negative numbers: Input containing negative integers (e.g., "-5 3 2") should be processed as valid
 
 ## 📜 License
 This project is open-source.
